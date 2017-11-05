@@ -1,0 +1,58 @@
+{
+	"variables": [],
+	"info": {
+		"name": "node-jwt",
+		"_postman_id": "5da944f0-040e-a26c-6854-f1396b2a97b1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all users",
+			"request": {
+				"url": "http://localhost:8080/api/users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTA5OTE5OTA2LCJleHAiOjE1MDk5MjEzNDZ9.L6ecEA9Bi-N6GuDdO_BEiLui0m8zqqPk1BQkRC55a_U",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "authenticate",
+			"request": {
+				"url": "http://localhost:8080/api/authenticate",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Nick Cerminara",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
