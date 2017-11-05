@@ -1,4 +1,4 @@
-# Project Title
+# node-jwt
 
 A nodejs oauth2.0 server using mongodb as a list of known users
 
