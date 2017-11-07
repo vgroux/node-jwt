@@ -8,20 +8,20 @@
 	},
 	"item": [
 		{
-			"name": "get all users",
+			"name": "verify",
 			"request": {
-				"url": "http://localhost:8080/api/users",
+				"url": "http://localhost:8080/api/verify",
 				"method": "GET",
 				"header": [
 					{
 						"key": "x-access-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6dHJ1ZSwiaWF0IjoxNTA5OTE5OTA2LCJleHAiOjE1MDk5MjEzNDZ9.L6ecEA9Bi-N6GuDdO_BEiLui0m8zqqPk1BQkRC55a_U",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZncm91eCIsImlhdCI6MTUxMDA2MzQzOCwiZXhwIjoxNTEwMDY0MzM4fQ.7hChB1fbs0Y-nXgoJfz8Gvr57DNmKP8rDOl4CO4pQzg",
 						"description": ""
 					}
 				],
 				"body": {
-					"mode": "formdata",
-					"formdata": []
+					"mode": "urlencoded",
+					"urlencoded": []
 				},
 				"description": ""
 			},
@@ -37,14 +37,14 @@
 					"mode": "urlencoded",
 					"urlencoded": [
 						{
-							"key": "name",
-							"value": "Nick Cerminara",
+							"key": "username",
+							"value": "vgroux",
 							"type": "text",
 							"enabled": true
 						},
 						{
 							"key": "password",
-							"value": "password",
+							"value": "123Soleil!",
 							"type": "text",
 							"enabled": true
 						}
