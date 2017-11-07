@@ -1,6 +1,6 @@
 module.exports = {
-
-    'secret': 'ilovescotchyscotch',
-    'database': 'mongodb://localhost:27017/oauth'
-
+    'secret': 'i<3Nutella!',
+    'ldapProtocol':'ldap',
+    'ldapHost':'192.168.16.30',
+    'ldapPort':'389'
 };
