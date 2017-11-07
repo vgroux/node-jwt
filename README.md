@@ -1,6 +1,6 @@
 # node-jwt
 
-A nodejs oauth2.0 server using mongodb as a list of known users
+A nodejs oauth2.0 server using an ldap server as an authentication service
 
 ## Getting Started
 
@@ -10,9 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
-Mongodb community edition : https://docs.mongodb.com/manual/administration/install-community/
-```
 ```
 NodeJS : https://nodejs.org/en/download/package-manager/
 ```
@@ -50,7 +47,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [MongoDB](https://docs.mongodb.com) - noSQL Database as a Service
+* [LdapJS](http://ldapjs.org/client.html) - ldap client/server library
 * [NodeJS](https://nodejs.org/) - JavaScript runtime
 * [auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - JsonWebToken implementation for node.js 
 
